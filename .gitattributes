@@ -62,6 +62,11 @@
 *.lxo lfs-file
 *.exr lfs-file
 
+# Adobe Substance 3D
+*.spp lfs-file
+*.sbs lfs-file
+*.sbsar lfs-file
+
 # Documents
 *.pdf lfs-file
 
