@@ -147,6 +147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LowPolyRamp_TechnicalArt
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b66aeeb10c2eec8468d67c893deb4fcb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

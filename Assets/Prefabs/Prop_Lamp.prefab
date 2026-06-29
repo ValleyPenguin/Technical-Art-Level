@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2660095058720376765
 Transform:
@@ -43,9 +43,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 0.9922722, b: 0.9481132, a: 1}
-  m_Intensity: 5.5
-  m_Range: 19.5
+  m_Color: {r: 0.9924187, g: 1, b: 0.8443396, a: 1}
+  m_Intensity: 12
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
@@ -83,17 +83,17 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 6
+  m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0.175
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -141,7 +141,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5549332502918019750
 Transform:
@@ -208,9 +208,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2720221069562527839, guid: 8e9d0ac1a0d0d9542b0b49b1ad4e610c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fcefca4b528afb4ba55ae1fa85612d2, type: 2}
     - target: {fileID: 919132149155446097, guid: 8e9d0ac1a0d0d9542b0b49b1ad4e610c, type: 3}
       propertyPath: m_Name
       value: LowPolyLamp_TechnicalArt
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e9d0ac1a0d0d9542b0b49b1ad4e610c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4753019088839813043, guid: 8e9d0ac1a0d0d9542b0b49b1ad4e610c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435588751651392918, guid: 8e9d0ac1a0d0d9542b0b49b1ad4e610c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 32bd67ba93d73e64292ba33ebd0adb04, type: 2}
+    - target: {fileID: 8934777400606672865, guid: 8e9d0ac1a0d0d9542b0b49b1ad4e610c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
