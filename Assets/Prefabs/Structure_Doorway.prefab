@@ -181,11 +181,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd89198378b4ae942abd08daa6e61ba7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 248bda6d019390f48888980b3db8750f, type: 2}
+      objectReference: {fileID: 2100000, guid: df8073a9ebe427043b75c877428242ed, type: 2}
     - target: {fileID: -7511558181221131132, guid: bd89198378b4ae942abd08daa6e61ba7, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: a0bae6997fb68c24d99a2ef1898e97a5, type: 2}
+      objectReference: {fileID: 2100000, guid: b9fc32e77bb1cb64eb08d10ec106599c, type: 2}
     - target: {fileID: 919132149155446097, guid: bd89198378b4ae942abd08daa6e61ba7, type: 3}
       propertyPath: m_Name
       value: LowPolyDoorway_TechnicalArt
