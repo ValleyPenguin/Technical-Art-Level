@@ -95,7 +95,7 @@ public class FirstPersonCharacterController : MonoBehaviour
             verticalVelocity = -1f;
         }
 
-        if (controller.isGrounded && jumpAction.WasPressedThisFrame())
+        if (controller.isGrounded && jumpAction.IsPressed())  //if (controller.isGrounded && jumpAction.WasPressedThisFrame())
         {
             verticalVelocity = jumpPower;
         }

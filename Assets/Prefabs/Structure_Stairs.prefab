@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1115754703051268661}
-  - component: {fileID: 2773456668584770937}
+  - component: {fileID: 6328344868583093860}
   m_Layer: 0
   m_Name: Stairs_Collider
   m_TagString: Untagged
@@ -65,7 +65,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1843719119722106967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &2773456668584770937
+--- !u!64 &6328344868583093860
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,7 +86,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4104380202958562290, guid: b66aeeb10c2eec8468d67c893deb4fcb, type: 3}
+  m_Mesh: {fileID: 7803668523658286640, guid: b66aeeb10c2eec8468d67c893deb4fcb, type: 3}
 --- !u!1001 &41234589450936335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,6 +135,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b66aeeb10c2eec8468d67c893deb4fcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 41ee9f7a0d1213143828ad1ad6bb8e30, type: 2}
+    - target: {fileID: -7511558181221131132, guid: b66aeeb10c2eec8468d67c893deb4fcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628e8d9ebad908949a778b143c661b89, type: 2}
     - target: {fileID: 919132149155446097, guid: b66aeeb10c2eec8468d67c893deb4fcb, type: 3}
       propertyPath: m_Name
       value: LowPolyRamp_TechnicalArt
