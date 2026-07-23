@@ -136,9 +136,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7764677879597517482, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7764677879597517482, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1b414af352cb59c41875ba87c8189d64, type: 2}
+    - target: {fileID: -4335256271160055025, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4335256271160055025, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -146,6 +154,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
       propertyPath: m_Name
       value: LowPolyTree_TechnicalArt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446317025356153247, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1446317025356153247, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -161,6 +173,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4306926806598535175, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113232789235503381, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7113232789235503381, guid: e6da559559814a64f8f0b4dd4663250a, type: 3}
